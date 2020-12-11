@@ -7,8 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-10 = Age.create(child_age: "10")
-1 = Age.create(child_age: "1")
-3 = Age.create(child_age: "3")
+ten = Age.create(child_age: "10")
+one = Age.create(child_age: "1")
+three = Age.create(child_age: "3")
 
-Milestones.create(name:"Judah", notes:"lost tooth", image_url: "https://losttooth.jpg", age_id: 10.id) 
+Milestone.create(name:"Judah", notes:"lost tooth", image_url: "https://losttooth.jpg", age_id: ten.id) 
