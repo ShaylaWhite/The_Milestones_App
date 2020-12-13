@@ -18,4 +18,6 @@ class Api::V1::MilestonesController < ApplicationController
     def milestones_params
         params.require(milestones).permit(:name, :notes, :image_url, :age_id)
      end 
+    end 
+
 end
